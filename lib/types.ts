@@ -18,15 +18,26 @@ export interface PropertyListing {
   address: string;
   suburb: string;
   beds: number;
-  baths: number;
+  baths: string;
   garage: number;
-  floorArea: number;
-  landArea: number;
+  floorArea?: number;
+  landArea?: number;
   images: string[];
   price: string;
   description: string;
   saleType: SaleType;
   saleDate?: string;
+  tag?: string;
+  developmentFeatures?: string[];
+  lot1Details?: string[];
+  lotDetails?: string[];
+  locationDetails?: string[];
+  propertyFeatures?: { label: string; value: string }[];
+}
+
+export interface PropertyListing2 {
+  address: string;
+  image: string;
 }
 
 export interface TeamMember {

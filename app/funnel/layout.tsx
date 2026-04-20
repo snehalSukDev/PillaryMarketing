@@ -24,7 +24,8 @@ export default function FunnelLayout({ children }: { children: React.ReactNode }
             className="text-sm font-medium"
             style={{ color: "#eceff1ff" }}
           >
-            Call Us: 0400 000 000
+            Call Us:
+            +64 22 045 3063
           </a>
         </div>
       </header>

@@ -426,7 +426,7 @@ export function QualificationForm() {
             type="submit"
             disabled={isSubmitting}
             className="w-full py-4 rounded-lg font-bold text-white text-base mt-2 disabled:opacity-60"
-            style={{ backgroundColor: "#C9A84C" }}
+            style={{ backgroundColor: "#033663" }}
           >
             {isSubmitting ? "Submitting..." : "Unlock Property Details 🔓"}
           </button>
